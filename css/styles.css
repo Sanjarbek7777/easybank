@@ -1,0 +1,137 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.container{
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-nav{
+  background-color: #FFFFFF;
+}
+
+.site--nav__ul{
+  display: flex;
+  list-style: none;
+}
+
+.site--nav__link{
+  text-decoration: none;
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.107692px;
+  color: #9597A5;
+}
+
+.site--nav__link:hover{
+  border-bottom: 4px solid #33D35E;
+  color:  #2D314D;
+}
+
+.site--nav__contents{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link-request{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  padding: 8px 35px;
+}
+
+.link-request:hover{
+  opacity: 0.4;
+}
+
+.site-hero{
+  background-color: #F2F2F2;
+}
+
+.hero-contents{
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.site--hero__title{
+  width: 394px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+}
+
+.site--hero__text{
+  width: 447px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 36px;
+}
+
+.link--request__two{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  padding: 14px 35px;
+}
+
+.link--request__two:hover{
+  opacity: 0.4;
+}
+
+.site-hero{
+  content: "";
+  display: block;
+  height: 700px;
+  background-image: url(../img/hero-phones-desktop.svg), url(../img/hero-bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 510px) -130px, calc(50% + 590px) -190px ;
+  position: relative;
+  overflow: hidden;
+}
+
